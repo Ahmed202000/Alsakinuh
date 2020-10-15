@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_15sdp"
+    android:layout_marginEnd="@dimen/_10sdp">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_20sdp"
+        app:cardCornerRadius="@dimen/_30sdp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_author_image"
+                android:layout_width="@dimen/_85sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:src="@drawable/log"
+                android:layout_centerVertical="true"/>
+
+
+            <TextView
+                android:id="@+id/tv_author_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_toEndOf="@+id/iv_author_image"
+                android:fontFamily="@font/kofy"
+                android:gravity="center"
+                android:text="عبد الباسط"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/btn_roqia"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_below="@+id/tv_author_name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_toEndOf="@+id/iv_author_image"
+                android:background="@drawable/btn_shape"
+                android:fontFamily="@font/font5"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/_10sdp"
+
+                android:textColor="@color/white" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

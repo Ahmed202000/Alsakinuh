@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplachScrenActivity"
+    android:background="@drawable/scren8"
+   >
+
+
+
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="ايات"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_28sdp"
+        android:fontFamily="@font/font5"
+        android:layout_marginTop="@dimen/_120sdp"/>
+
+
+    <TextView
+        android:layout_below="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="الســــــكينه"
+        android:layout_marginTop="-20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_30sdp"
+        android:fontFamily="@font/font5"/>
+
+
+
+
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/btn_roqia"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:layout_width="@dimen/_120sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/btn_shape_1"
+        android:fontFamily="@font/font5"
+        android:text="استماع"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/_13sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#24C88C48" />
+
+
+</RelativeLayout>
